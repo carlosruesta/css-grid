@@ -58,6 +58,7 @@
 	grid-row: 3 / 4;
 }
 
+/* Percebe que estamos fazendo uso de flex colocar os objetos de acordo com o layout de forma simples*/
 .destaques__categorias___lista {
 	display: flex;
 	flex-wrap: wrap;
@@ -65,6 +66,7 @@
 	justify-content: space-between;
 }
 
+/* A disposição com flex da lista anterior se completa com essa configuração */
 .destaques__categorias___item {
 	align-items: center;
 	background: #fdfdfd;
