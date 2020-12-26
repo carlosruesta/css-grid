@@ -1,0 +1,44 @@
+
+/*  Para configurar a grid precisamos definir algumas propriedades na classe app
+    grid-template-areas: define das áreas do nosso layout/site
+            Recebe strings como definição das áreas
+            As áreas devem ser definidas na ordem do posicionamento na página
+    grid-template-columns: define o tamanho das colunas da grid.
+            Como temos uma única coluna definimos como "auto"
+    grid-template-rows: define o tamanho das linhas
+            Exemplos:   grid-template-rows: 100px 100px 20px 50px;
+                        grid-template-rows: auto auto auto auto;
+                        grid-template-rows: 10% 20px 50vh 10%;
+            "auto" deixa o tamanho auto ajustável ao conteúdo do componente
+ */
+
+.app {
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+}
+
+/*
+    Como parte da configuração de uma grid, precisa ser definida a propriedade grid-area de cada componente da grid;
+    grid-area: recebera o nome da cada área;
+ */
+.cabecalho {
+    background: #00cc99;
+    grid-area: cabecalho;
+}
+ 
+.conteudo {
+    background: #ff8080;
+    grid-area: conteudo;
+}
+
+.rodape {
+    background: #0099ff;
+    grid-area: rodape;
+}
