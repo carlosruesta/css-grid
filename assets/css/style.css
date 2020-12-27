@@ -30,15 +30,23 @@
  */
 .cabecalho {
     /*background: #00cc99;*/
+    display: flex;
+    align-items: center;
     grid-area: cabecalho;
+    padding: 0 2rem;
 }
  
 .conteudo {
     /*background: #ff8080;*/
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
-    /*background: #0099ff;*/
+    background: #fdfdfd;
     grid-area: rodape;
+    color: #333333;
+    font-size: .8rem ;
+    padding: 1rem;
+    text-align: center;
 }
