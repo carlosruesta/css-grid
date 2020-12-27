@@ -21,7 +21,9 @@
 	background: url('../img/fortnite.jpg') center / cover no-repeat;
 	/*grid-column-start: 1;*/
 	/*grid-column-end: 4;*/
-	grid-column: 1 / 4;
+
+	/*grid-column: 1 / 4;*/
+
 	/*grid-row-start: 1;*/
 	/*grid-row-end: 3;*/
 	grid-row: 1 / 3;
